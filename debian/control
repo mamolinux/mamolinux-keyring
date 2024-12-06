@@ -1,0 +1,22 @@
+Source: mamolinux-keyring
+Section: misc
+Priority: important
+Maintainer: Himadri Sekhar Basu <hsb10@iitbbs.ac.in>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ meson ( >= 1.3.0)
+Standards-Version: 4.6.2
+Homepage: https://github.com/mamolinux/mamolinux-keyring
+#Vcs-Browser: https://salsa.debian.org/debian/mamolinux-keyring
+#Vcs-Git: https://salsa.debian.org/debian/mamolinux-keyring.git
+
+Package: mamolinux-keyring
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: GnuPG keys of the MamoLinux archive
+ The MamoLinux project digitally signs its Release
+ files. This package contains the archive keys used for that.
