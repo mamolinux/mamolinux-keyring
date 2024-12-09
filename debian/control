@@ -14,9 +14,6 @@ Homepage: https://github.com/mamolinux/mamolinux-keyring
 Package: mamolinux-keyring
 Architecture: all
 Multi-Arch: foreign
-Depends:
- ${shlibs:Depends},
- ${misc:Depends},
 Description: GnuPG keys of the MamoLinux archive
  The MamoLinux project digitally signs its Release
  files. This package contains the archive keys used for that.
