@@ -1,8 +1,14 @@
+mamolinux-keyring (0.0.3) stable; urgency=medium
+
+  * New upstream release
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Sat, 18 Oct 2025 20:59:01 +0530
+
 mamolinux-keyring (0.0.2) stable; urgency=medium
 
   * Add gpg keys and update d/control
 
- -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Mon, 09 Dec 2024 18:44:16 +0530
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Sat, 18 Oct 2025 20:58:30 +0530
 
 mamolinux-keyring (0.0.1) stable; urgency=medium
 
